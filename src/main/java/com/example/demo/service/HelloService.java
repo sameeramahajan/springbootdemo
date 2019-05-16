@@ -10,6 +10,6 @@ public class HelloService {
 	
 	@RequestMapping("/test")
 	public String helloworld(String name) {
-		return "Hello.. Demo on Deploying Microservices using Docker";
+		return "Hello.. Demo on CI/CD pipeline";
 	}
 }
